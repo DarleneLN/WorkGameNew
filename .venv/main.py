@@ -10,5 +10,6 @@ while True: #loop de laço infinito, fica preso para sempre
 #check for all events
     for event in pygame.event.get(): #pegar os eventos e ficar checando
         if event. type == pygame.QUIT:
+           print('Quitting...')
             pygame.quit() #close windown
             quit() # end game
